@@ -97,11 +97,19 @@
         <artifactId>unirest-java</artifactId>
         <version>1.4.9</version>
       </dependency>
+        <dependency>
+          <groupId>org.mongodb</groupId>
+          <artifactId>mongodb-driver</artifactId>
+          <version>3.10.1</version>
+        </dependency>
     </dependencies>
-
   </dependencyManagement>
 
   <dependencies>
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>mongodb-driver</artifactId>
+    </dependency>
     <dependency>
       <groupId>com.mashape.unirest</groupId>
       <artifactId>unirest-java</artifactId>
